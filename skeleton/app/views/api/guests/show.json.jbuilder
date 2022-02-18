@@ -1,5 +1,5 @@
-json.guest do
+# json.guest do
     json.extract! @guest, :name, :age, :favorite_color
-end
+# end
 
 # json.partial! 'api/guests/guest', guest: @guest
